@@ -53,6 +53,11 @@ python analisador.py
 
 ---
 
+📂 Arquivo de log utilizado
+O script utiliza como base um arquivo chamado auth.log, no formato padrão dos sistemas Linux. Esse arquivo contém registros detalhados de tentativas de autenticação, como acessos via SSH ou comandos sudo. Durante a execução, o script varre linha por linha em busca de ocorrências com a mensagem Failed password, que indicam falhas de login. O usuário pode substituir ou editar o conteúdo do auth.log com dados reais ou simulados, desde que mantenha o mesmo formato, permitindo testes e análises em diferentes contextos de segurança.
+
+---
+
 📄 Licença
 Este projeto está licenciado sob a MIT License.
 
